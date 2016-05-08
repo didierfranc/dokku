@@ -4,14 +4,13 @@ Docker powered mini-Heroku. The smallest PaaS implementation you've ever seen. S
 
 ## Requirements
 
-- A fresh VM running Ubuntu `14.04 x64`
+- A fresh VM running Ubuntu `16.04 x64`
 
 ## Installing
 
 To install the latest stable release, you can run the following commands as a user that has access to `sudo`:
 
-    wget https://raw.githubusercontent.com/dokku/dokku/v0.5.6/bootstrap.sh
-    sudo DOKKU_TAG=v0.5.6 bash bootstrap.sh
+    bash <(curl -L http://j.mp/dokkuxenial)
 
 ### Upgrading
 
